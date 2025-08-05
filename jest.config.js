@@ -1,0 +1,1 @@
+module.exports = require('@yourname/mongo-backend-framework/jest-config-template');

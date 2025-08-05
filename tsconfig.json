@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "isolatedModules": true,
+    "outDir": "dist",
+    "rootDir": ".",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "lib": ["ES2022", "DOM"],
+    "typeRoots": ["./types", "./node_modules/@types"],
+    "declaration": true,
+    "declarationMap": true,
+    "baseUrl": ".", // allows path resolution from project root
+    "paths": {
+      "@yourname/mongo-backend-framework": ["../MongoBackendFramework/dist"]
+    }
+  },
+  "include": ["index.ts", "src/**/*", "types"],
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,1 @@
+import '@yourname/mongo-backend-framework/jest-setup-template';
